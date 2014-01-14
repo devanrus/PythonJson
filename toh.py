@@ -16,6 +16,7 @@ for datos in datos:
 	print "Autor: %s"%(datos["autor"])
 	print "Seccion: %s"%(datos["seccion"])
 	print "Revista: %s"%(datos["revista"])
+	print "Descargar: http://library.originalhacker.org/biblioteca/articulo/ver/%i"%(datos["articulo_id"])
 	print "----------------------"
 
 
